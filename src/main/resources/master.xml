@@ -5,6 +5,6 @@
 <preConditions> 
 	<sqlCheck expectedResult="0">SELECT NVL(MAX(id),0) FROM databasechangelog WHERE author='MajorVersion'</sqlCheck> 
 </preConditions> 
-   <include file="C:\Users\IEUser\my-app\src\main\resources\Build\Bulid_2016-12-09_1.xml" /> 
-   <include file="C:\Users\IEUser\my-app\src\main\resources\Build\Bulid_2016-12-09_2.xml" /> 
+   <include file="https://github.com/dgradkie/Liquibase/blob/master/src/main/resources/Build/Bulid_2016-12-09_1.xml" /> 
+   <include file="https://github.com/dgradkie/Liquibase/blob/master/src/main/resources/Build/Bulid_2016-12-09_2.xml" /> 
 </databaseChangeLog> 
