@@ -4,10 +4,10 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
  <changeSet author="dgradkiewicz" id="1">
-  <sqlFile path="src/main/resources/Scripts/test_TMP.sql" stripComments="false"
+  <sqlFile path="https://github.com/dgradkie/Liquibase/blob/master/src/main/resources/Scripts/test_TMP.sql" stripComments="false"
            splitStatements="false" endDelimiter="\n/"/>
   <rollback>
-   <sqlFile path="src/main/resources/Scripts/rollback_drop_TMP.sql"
+   <sqlFile path="https://github.com/dgradkie/Liquibase/blob/master/src/main/resources/Scripts/rollback_drop_TMP.sql"
             stripComments="false" splitStatements="false" endDelimiter="\n/"/>
   </rollback>
  </changeSet>
